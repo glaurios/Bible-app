@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 249, 242);
+   background-image: url(bb1.jpg);
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.143);
+    z-index: -1;
+}
+
+#content1{
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 12cm;
+    left: 400px;
+    width: 15cm;
+    top: 50px;
+    background-color: rgba(119, 82, 26, 0.542);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(17, 16, 16);
+}
+
+#typespace{
+    position: absolute;
+    top: 150px;
+    left: 155px;
+    border-radius: 10px;
+   padding: 5px;
+   width: 7cm;
+   outline: none;
+   border: 1px solid rgb(48, 29, 0);
+   background-color: rgb(254, 245, 232);
+   color: black;
+   box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#typespace:hover{
+    outline: 1px solid rgb(22, 117, 251);
+    border: none;
+}
+
+#bb{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+#button1{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    width: 2cm;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+    width: 2.3cm;
+    padding: 10px 10px;
+    background: linear-gradient(90deg,#5a3d2b,#8b5e34);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    box-shadow: 2px 4px 10px rgb(47, 31, 12);
+    /* transition: background 0.3s ease; */
+}
+
+#button1:hover{
+    background: linear-gradient(90deg,#8b5e34,#5a3d2b);
+    color: black;
+    font-weight: 700;
+    outline: 1px solid rgb(254, 254, 254);
+    box-shadow: 2px 4px 15px rgba(0,0,0,0.2);
+}
+
+#immg{
+    position: absolute;
+    width: 120px;
+    left: 350px;
+    top: 10px;
+}
+
+#content2{
+    position: absolute;
+    border: 2.5px solid rgb(78, 40, 1);
+    width: 12cm;
+    height: 4cm;
+    top: 310px;
+    left: 470px;
+    border-radius: 10px;
+    background-color: #dcc7b4;
+    
+}
+
+#preloader{
+    background: #000000a2 url(neww1-gif.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-size: 3%;
+}
